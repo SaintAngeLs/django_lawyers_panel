@@ -133,12 +133,6 @@ Customized: Please Confirm The E-mail Address
 - Create an app password for mail. You'll get a 15 digit code. Add it in the place of password in the env.
 - Option for creating app password is available after the activation of 2 Factor Authentication.
 
-### Internal Server Error 500
-- Make sure you have added the domain in the ALLOWED_HOSTS of settings/production.py
-- If you want to see the DEBUG information while in production, set PRO_DEBUG = True in env.
-- The resize_image() function can cause Internal Server Error 500. Just comment that line, run the server once, create a user, and then you can uncomment it. It won't cause problem anymore. The exact reason of this bug is unknown.
-- If appointment booking confirmation email or another email is not being sent, allow Display Unlock Captcha once again.
-- Make sure you have kept the user_pro_pic inside the media/APP_NAME/defaults/img/user_pro_pic.jpg in the Cloudinary.
 
 ### Collectstatic
 If you run 'python manage.py collectstatic', it will collect the static files of all associated apps and save it in a directory named 'static'.

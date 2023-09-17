@@ -4,4 +4,7 @@
         "C:\\Users\\SANDHI\\.conda\\envs\\law\\Lib\\site-packages"
     ],
     "editor.minimap.enabled": true,
+    "python.analysis.extraPaths": [
+        "C:\\Users\\SANDHI\\.conda\\envs\\law\\Lib\\site-packages"
+    ],
 }
